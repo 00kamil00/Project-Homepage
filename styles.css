@@ -108,3 +108,52 @@ article {
 .project-desc {
     margin: 10px;
 }
+
+
+/* footer */
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 50px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 250px;
+
+    padding: 10px;
+}
+
+.contact1,
+.contact2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contact2-phone,
+.contact2-mail {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.contact-media {
+    display: flex;
+    gap: 10px;
+
+    margin-bottom: 15px;
+}
+
+.photo2 {
+    width: 100%;
+    height: auto;
+    display: block;
+}

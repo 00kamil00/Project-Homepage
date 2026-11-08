@@ -78,12 +78,14 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    margin-top: 50px;
+
+    margin: 5px 5px;
 }
 
-.projects h2 {
+.my-work-title {
     font-size: 2.6rem;
+
+    margin-top: 50px;
 }
 
 article {
@@ -91,8 +93,6 @@ article {
     flex-direction: column;
 
     min-height: 350px;
-    width: 300px;
-
     margin: 15px 0 35px;
 
     box-shadow: 10px 12px 15px rgba(0, 0, 0, 0.3);
@@ -227,5 +227,16 @@ footer {
     }
     .media {
         margin-left: auto;
+    }
+
+    /* main */
+
+    .projects {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(250px, 350px));
+        gap: 10px;
+    }
+    .my-work-title {
+        grid-column: 1 / -1;
     }
 }

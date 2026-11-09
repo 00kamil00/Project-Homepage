@@ -292,7 +292,15 @@ footer {
     }
     .about-me h2,
     .about-me p {
-        /* border: 1px solid black; */
         text-align: left;
+    }
+
+
+    /* main */
+
+
+    .projects {
+        grid-template-columns: repeat(3, minmax(250px, 400px));
+        gap: 35px;
     }
 }

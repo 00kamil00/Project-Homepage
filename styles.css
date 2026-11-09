@@ -258,3 +258,41 @@ footer {
         margin-right: 5%;
     }
 }
+
+
+/* laptop */
+
+
+@media (min-width: 1024px) {
+    header {
+        margin-bottom: 80px;
+        background: linear-gradient(170deg, #008fa4 70%, #008fa4 70%, transparent 65%);
+    }
+    .header-name {
+        top: 300px;
+        left: 16px;
+        min-width: 100%;
+    }
+    .photo1-container {
+        max-width: 250px;
+        top: 55px;
+        left: 50px;
+    }
+    .photo1 {
+        width: 300px;
+    }
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        min-height: 350px;
+        padding-left: 250px;
+        padding-right: 50px;
+    }
+    .about-me h2,
+    .about-me p {
+        /* border: 1px solid black; */
+        text-align: left;
+    }
+}

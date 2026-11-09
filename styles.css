@@ -303,4 +303,16 @@ footer {
         grid-template-columns: repeat(3, minmax(250px, 400px));
         gap: 35px;
     }
+
+
+    /* footer */
+
+    footer {
+        display: flex;
+        justify-content: space-around;
+    }
+    .contact {
+        margin: 50px 50px 50px 5%;
+        width: auto;
+    }
 }
